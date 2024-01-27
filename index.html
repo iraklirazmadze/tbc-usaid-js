@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+    <div class="header-main-box">
+      <div class="box">
+        <div class="logo-title-box">
+          <img class="logo" src="./images/pngwing.com.png" alt="Logo">
+          <div class="header-title">x აკადემია</div>
+        </div>
+        <div class="navbar-box">
+          <div>მთავარი</div>
+          <div>TBC IT</div>
+          <div style="color: #3869cc;">TBC x USAID</div>
+          <div>რისკები</div>
+        </div>
+      </div>
+    </div>
+
+  <div class="information-main-box">
+    <div class="info-title">
+      <h1 class = "info-h1">TBC x USAID</h1>
+      <h2 class="info-h2">ტექნოლოგიური განათლებისთვის</h2>
+    </div>
+    <div class="info-box">
+      <div class="info">
+        „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო ტექნოლოგიებით დანტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="course-main-box">
+    <h1 class="main-title">სასწავლო კურსები</h1>
+    <div class="main-box" id="courseContainer">
+    </div>
+  </div>
+
+  <div class="main-parthners-div" id="parthnersBox">
+    <h1 class="project-parthners-title">პროექტის პარტნიორები</h1>
+    <div class="logos-and-arrows">
+      <img src="images/prevIcon.svg" alt="Previous" class="prev-icon" onclick="handleClickPrev()">
+      <div class="logos-container" id="logosContainer"></div>
+      <img src="images/nextIcon.svg" alt="Next" class="next-icon" onclick="handleClickNext()">
+    </div>
+  </div>
+
+
+  <div class="questions-main-div">
+    <div class="questions-title">ხშირად დასმული კითხვები</div>
+    <div class="questions-box" id="questionsApp"></div>
+  </div>
+
+  <div class="footer">
+    <div class="infoBox">
+        <div class="leftBox">
+            <img src="images/tbcWhiteLogo.webp" alt="TBC Logo">
+            <div>© 2023 ყველა უფლება დაცულია</div>
+            <div>წესები და პირობები</div>
+        </div>
+        <div class="rightBox">
+            <div class="logos">
+                <img src="images/fbLogo.webp" alt="Facebook Logo">
+                <img src="images/youtubeLogo.webp" alt="YouTube Logo">
+            </div>
+            <button>მოგვწერეთ</button>
+        </div>
+    </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
